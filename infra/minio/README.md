@@ -3,10 +3,11 @@ Setup standalone Minio
 
 <br>
 
-**Install Helm (optional)**
+**Prerequirement: Helm**
 
 Helm is the package manager for kubernetes and we need it for installing minio.
 
+Install Helm with commands below: (skipped if you already installed)
 
     curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
     chmod 700 get_helm.sh
