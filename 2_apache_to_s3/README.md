@@ -42,10 +42,13 @@ Deploy the pod in kubernetes
 
 **Step 4**
 
-Check if it does output to the sidecar stout
+If it works properly, there should be NO error
 
     $ kubectl logs apache -c log-collector
 
-If it works properly, there should not be any error and you can login minio web to check if the log files landed. (You may need to use port-forwaring or NodePort service to access minio service)
+
+And then check if it does output to `S3` bucket: `logs`.
+The first log gz file will be there after `1 minute` later.
+You can login minio web to check if the log files landed. (You may need to use port-forwaring or NodePort service to access minio service)
 
 
