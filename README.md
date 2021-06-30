@@ -1,6 +1,6 @@
 Examples for Fluentd
 ------------
-A notes for my learning path to fluentd.
+A notes for my learning to fluentd.
 
 I used `mingrammer/flog` to mimic log generation.
 
